@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.sunshine.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayerNumbers"
+            android:label="@string/title_activity_player_numbers" >
+        </activity>
+        <activity
+            android:name=".EnterNames"
+            android:label="@string/title_activity_enter_names" >
+        </activity>
+        <activity
+            android:name=".ShowRoles"
+            android:label="@string/title_activity_show_roles" >
+        </activity>
+        <activity
+            android:name=".StartRound"
+            android:label="@string/title_activity_start_round" >
+        </activity>
+    </application>
+
+</manifest>
